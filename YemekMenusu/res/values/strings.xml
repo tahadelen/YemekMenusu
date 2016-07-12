@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">Ziya Şark Sofrası</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red">#FF0000</color>
+    <color name="bg">#FF9999</color>
+    <color name="text">#CCCCFF</color>
+
+</resources>

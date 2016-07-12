@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_dnm2"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/gradient_bg"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/foods_backButton"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:background="@drawable/buttonbg"
+            android:onClick="backPressed"
+            android:text="Ana Menü"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/foods_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.42"
+            android:gravity="center_horizontal"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
+            android:background="@drawable/buttonbg"
+            android:onClick="orders"
+            android:text="Siparişlerim"
+            android:visibility="visible" />
+
+    </LinearLayout>
+    
+	
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="#b5b5b5"
+        android:dividerHeight="1dp"
+        android:listSelector="@drawable/list_selector"
+        android:layout_marginTop="10dip" />
+
+</LinearLayout>

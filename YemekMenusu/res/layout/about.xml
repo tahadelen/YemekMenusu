@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aboutbg2"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/user_backButton"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonbgalpha"
+        android:onClick="backPressed"
+        android:text="Geri"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:text="Ziya Şark Sofrası"
+        android:textSize="40sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="
+Şanlıurfa Birecik’ten İstanbul’a göç eden Bingöl kardeşlerin çıraklıktan başlayan kebapçılık serüveni zaman içinde Ziya Şark Sofrası ismi ile markalaştı. Dört kardeşin en büyüğü olan Ziya Bingöl’ün öncülük ettiği dört kardeş Ziya Şark Sofrası ile 11 şubeye erişti. Özellikle muhafazakâr kesimin gözde mekânı olan Ziya Şark’ta kardeşlerin kader birliği 2008’de bozuldu. Ramazan ve Mahmut Bingöl yollarını ayırdı. En derin ayrılık iki yıl sonra yaşandı: Ziya Bingöl, artan borç yükünün de etkisiyle, intihar etti. Geride bir başına kalan Ahmet Bingöl Ziya Şark Sofrası’nı uçurumun eşiğinden kurtarışını anlattı."
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</LinearLayout>

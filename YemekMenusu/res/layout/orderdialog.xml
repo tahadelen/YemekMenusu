@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/order_foodname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/order_foodname"
+        android:layout_marginLeft="50dp"
+        android:text="Adet"
+        android:layout_marginTop="25dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/order_number"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:ems="10"
+        android:inputType="number" />
+
+    <android.support.v7.widget.Space
+        android:id="@+id/space1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/order_foodname" />
+
+    <Button
+        android:id="@+id/order_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_alignBaseline="@+id/order_number"
+        android:layout_alignBottom="@+id/order_number"
+        android:layout_toLeftOf="@+id/order_cancel"
+        android:text="Ekle" />
+    
+    <Button
+        android:id="@+id/order_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_alignBaseline="@+id/order_number"
+        android:layout_alignBottom="@+id/order_number"
+        android:layout_alignParentRight="true"
+        android:text="İptal" />
+
+</RelativeLayout>
